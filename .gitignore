@@ -1,1 +1,4 @@
-
+node_modules
+qa.env
+production.env
+development.env

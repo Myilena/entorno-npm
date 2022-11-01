@@ -8,7 +8,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "set ENTORNO=development& nodemon index.js",
+    "qa":"set ENTORNO=qa& nodemon index.js",
+    "start": "set ENTORNO=production& node index.js"
   },
   "keywords": [],
   "author": "",
